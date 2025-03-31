@@ -9,3 +9,7 @@ output "instance_arn" {
   value = aws_instance.ubuntu.arn
 }
 
+output "tags" {
+  value = aws_instance.ubuntu.tags
+}
+
